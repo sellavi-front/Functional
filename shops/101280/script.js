@@ -1,7 +1,6 @@
 /* eslint-disable operator-linebreak */
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
-import 'https://cdn.jsdelivr.net/npm/vue/dist/vue';
 
 window.onload = () => {
   if (
@@ -94,14 +93,14 @@ window.onload = () => {
   /* ======== AUTO CHANGE COLOR CHOISE ======== */
 
   const colors = {
-    красный: 'red',
-    зеленый: 'green',
-    зелёный: 'green',
-    оранжевый: 'orange',
-    черный: 'black',
-    чёрный: 'black',
-    белый: 'white',
-    коричневый: '#964b00',
+    'красный': 'red',
+    'зеленый': 'green',
+    'зелёный': 'green',
+    'оранжевый': 'orange',
+    'черный': 'black',
+    'чёрный': 'black',
+    'белый': 'white',
+    'коричневый': '#964b00',
   };
 
   const rad = document.querySelectorAll('.selectpicker-wrapper>div');
